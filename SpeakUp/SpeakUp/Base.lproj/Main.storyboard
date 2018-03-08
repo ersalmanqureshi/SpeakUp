@@ -35,9 +35,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apE-ww-UZt">
-                                <rect key="frame" x="173" y="153.5" width="30" height="30"/>
-                                <state key="normal" title="Tap"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apE-ww-UZt">
+                                <rect key="frame" x="173" y="153.5" width="30" height="31"/>
+                                <state key="normal" image="speech "/>
                                 <connections>
                                     <action selector="tapButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qU6-Rc-p4B"/>
                                 </connections>
@@ -64,4 +64,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="speech " width="30" height="31"/>
+    </resources>
 </document>
