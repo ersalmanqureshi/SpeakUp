@@ -1,7 +1,7 @@
 # SpeakUp
 
 ### Permission
-`SpeakUp` checks and ask for speech and microphone usage permissions.
+`SpeakUp` check and ask for speech and microphone usage permissions.
 
-# Author
+## Author
 Salman Qureshi, er.salmanqureshi@gmail.com
